@@ -3,9 +3,10 @@
 <p align="center">
 Nacir Chahine's Contacts Laravel Porject
 </p>
-Dashboard:
+<h4>Dashboard:<h4/>
+
 ![image](https://user-images.githubusercontent.com/102810273/210751919-ded94964-4c6e-4e78-9c60-d2d3bee950e3.png)
 
 
-Add contact:
+<h4> Add contact: <h4/>
 ![image](https://user-images.githubusercontent.com/102810273/210751088-1394e80d-1f7e-4f76-847e-fd1c5c3884e6.png)
