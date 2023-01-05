@@ -12,25 +12,14 @@
             <form method="POST" action="/contact/{{ $contact->id }}">
 
                 <div class="form-group">
-                    <input type="text" name="first_name" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white " placeholder='Enter first name'>{{$contact->first_name }}</input>	
-                    @if ($errors->has('first_name'))
-                        <span class="text-danger">{{ $errors->first('first_name') }}</span>
-                    @endif
+                    <input type="text" name="first_name" value="{{ $contact->first_name }}" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white " placeholder='Enter first name'></input>	
                     
-                    <input type="text" name="last_name" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" placeholder='Enter last name'>{{$contact->last_name }}</input>	
-                    @if ($errors->has('last_name'))
-                        <span class="text-danger">{{ $errors->first('last_name') }}</span>
-                    @endif
+                    <input type="text" name="last_name" value="{{ $contact->last_name }}" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" placeholder='Enter last name'></input>	
 
-                    <input type="email" name="email" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" placeholder='Enter email'>{{$contact->email }}</input>
-                    @if ($errors->has('email'))
-                        <span class="text-danger">{{ $errors->first('email') }}</span>
-                    @endif
+                    <input type="email" name="email" value="{{ $contact->email }}" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" placeholder='Enter email'></input>
 
-                    <input type="number" name="phone" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" placeholder='Enter phone'>{{$contact->phone }}</input>	
-                    @if ($errors->has('phone'))
-                        <span class="text-danger">{{ $errors->first('phone') }}</span>
-                    @endif
+                    <input type="number" name="phone" value="{{ $contact->phone }}" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" placeholder='Enter phone'></input>	
+
                 </div>
 
                 <div class="form-group">
