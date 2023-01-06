@@ -11,3 +11,7 @@ Nacir Chahine's Contacts Laravel Project
 <h4> Add contact: <h4/>
     
 ![image](https://user-images.githubusercontent.com/102810273/210941401-a223f04e-2326-4906-bf45-c8ca8f39902c.png)
+
+<h4> Edit contact: <h4/>
+    
+![image](https://user-images.githubusercontent.com/120245923/210942081-2282677f-405e-41f6-bc04-db80f0647777.png)
