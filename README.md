@@ -17,9 +17,18 @@ Nacir Chahine's Contacts Laravel Project
 ![image](https://user-images.githubusercontent.com/120245923/210942081-2282677f-405e-41f6-bc04-db80f0647777.png)
 
 
-<h4> now to run the project:</h4>
+<h4> to run the project do this:</h4>
+
 - clone the repo <br>
 
-<button class="btn btn-sm btn-outline-secondary copy-code-button">Copy</button>
 ```bash
-composer install && php artisan serve
+composer install
+```
+
+```bash
+php artisan serve
+```
+
+```bash
+open http://localhost:8000
+```
