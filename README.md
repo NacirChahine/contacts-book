@@ -15,3 +15,9 @@ Nacir Chahine's Contacts Laravel Project
 <h4> Edit contact: <h4/>
     
 ![image](https://user-images.githubusercontent.com/120245923/210942081-2282677f-405e-41f6-bc04-db80f0647777.png)
+
+
+<h4> now to run the project:</h4>
+1- clone the repo
+2- composer install
+3- php artisan serve
