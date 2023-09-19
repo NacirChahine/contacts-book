@@ -18,6 +18,8 @@ Nacir Chahine's Contacts Laravel Project
 
 
 <h4> now to run the project:</h4>
-1- clone the repo
-2- composer install
-3- php artisan serve
+- clone the repo <br>
+
+<button class="btn btn-sm btn-outline-secondary copy-code-button">Copy</button>
+```bash
+composer install && php artisan serve
